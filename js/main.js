@@ -58,7 +58,7 @@ window.addEventListener('load', () =>{
       })
 
       arrow.addEventListener('click', function () {
-        if(password.value === "suty" || password.value === "Suty"){
+        if(password.value === "suty11" || password.value === "Suty11"){
           locationTimeZone.textContent = "Heart";
           tempretureDegree.textContent="1";
           degreeType.textContent = "Love";
