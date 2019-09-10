@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143)); /* linear-gradient is use with just proparety background  */
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.location-timezone{
+    font-size: 40px;
+}
+
+.degree-selection{
+    cursor: pointer;
+}
+
+canvas{
+    margin-top: -40px;
+}
+
+.temperature-degree, .temperature-description{
+    font-size: 36px;
+}
+
+#filterinput{
+    border-bottom-color: #fff;
+    margin-bottom: 40px;
+    color: #fff;
+    visibility: hidden;
+}
+
+.fa-arrow-down{
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.play{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    border: 0;
+    background-color: transparent;
+    font-size: 25px;
+    border: 1px solid lightblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media(max-width: 1280px){
+    .location-timezone{
+        font-size: 60px;
+    }
+
+    canvas{
+        width: 150px;
+        height: 150px;
+    }
+
+    .temperature-degree{
+        font-size: 45px;
+    }
+
+    .temperature-description{
+        font-size: 45px;
+    }
+}
+
+@media(max-width: 992px){
+    .location-timezone{
+        font-size: 50px;
+    }
+
+    canvas{
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media(max-width: 576px){
+    .location-timezone{
+        font-size: 25px;
+    }
+
+    canvas{
+        width: 118px;
+        height: 118px;
+    }
+
+    .temperature-description{
+        font-size: 30px;
+    }
+}
